@@ -38,6 +38,8 @@ body {
 
 :root {
     --button-color: #FFAC12;
+    scroll-behavior: smooth;
+
 }
 
 .margin-vertical {
