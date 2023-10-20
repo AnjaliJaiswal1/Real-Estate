@@ -71,6 +71,10 @@ body {
     flex-direction: column;
 }
 
+.mobile-icon {
+    display: hidden;
+    font-size: 32px;
+}
 
 .button {
     background-color: var(--button-color);
@@ -104,6 +108,10 @@ body {
     justify-content: start;
     color: white;
     text-align: center;
+}
+
+nav {
+    width: 100%;
 }
 
 .nav-bar {
@@ -225,9 +233,15 @@ p {
 
 }
 
-.vertical-border {
-    border-right: 3px solid #E4E4E4;
+.location-vertical-border {
+    border-right: 1px solid #E4E4E4;
     height: 100px;
+}
+
+.vertical-border {
+    border-right: 2px solid #E4E4E4;
+    height: auto;
+    display: inline;
 }
 
 .location p {
@@ -239,19 +253,18 @@ p {
 
 .houses {
     flex-wrap: wrap;
+
 }
 
 .house-container {
     margin: 30px 20px;
     background-color: white;
     border-radius: 20px;
-    width: 29%;
 
 }
 
 .house-container img {
     height: 250px;
-    width: 100%;
 }
 
 .house-container h2 {
@@ -405,8 +418,34 @@ p {
         width: 100%;
     }
 
-    .nav-bar {
+
+
+    .nav-bar ul {
+        width: -200px;
         display: none;
+        width: 100%;
+        padding: 20px 0;
+        /* display: block; */
+    }
+
+    .nav-bar .button {
+        display: none;
+    }
+
+    .nav-bar .logo {
+        width: 100px;
+        height: auto;
+    }
+
+    .show-icon {
+        font-size: 32px;
+        display: block;
+    }
+
+    .button {
+        padding: 15px 20px;
+        justify-content: center;
+        align-items: center;
     }
 
     .background-image {
@@ -459,12 +498,11 @@ p {
 
     img {
         width: 100%;
-        /* margin: 50px 0; */
 
     }
 
     .container-3 {
-        padding: 20px;
+        padding: 0;
         width: 100%;
     }
 
@@ -482,48 +520,66 @@ p {
         width: 100%;
     }
 
-    .houses {
-        width: 100%;
+
+    .house-container h2 {
+        margin: 20px 0px 20px 20px;
     }
 
-
-    .house-container {
-        width: 80%;
+    .numbers {
+        padding: 0px 20px;
     }
+
+    .numbers span {
+        padding: 0 30px;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
 
     .row-4 {
         display: flex;
         flex-wrap: wrap-reverse;
     }
-    
+
+    .row-5 {
+        height: 700px;
+    }
+
+    .row-5 .line {
+        /* height: 100px; */
+    }
+    .clients{
+        margin: 0;
+    }
 
     .client-section {
         padding: 0;
         display: flex;
         flex-direction: column;
-        margin: 100px 0px;
+        margin: 0px 0px;
     }
-    .client-content h2{
+
+    .client-content h2 {
         width: 80%;
         margin: 80px 0;
     }
-    .client-name p{
+
+    .client-name p {
         margin: 0;
     }
-  
+
     .footer-content {
         padding: 20px;
         flex-wrap: wrap;
         flex-direction: column;
     }
-    .content-5{
+
+    .content-5 {
         justify-content: space-evenly;
     }
-    .button{
-        padding: 15px 20px;
-        justify-content: center;
-        align-items: center;
-    }
+
+
 
 
 

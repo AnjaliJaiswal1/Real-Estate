@@ -14,20 +14,23 @@
     <div id="background-container" class="background-container">
         <div class="background-image "> </div>
         <div class="content">
-            <div class="nav-bar justify-space-between">
-                <div class="logo"><img src="images/logo.png" alt=""></div>
-                <ul>
-                    <li><a href="#background-container">Home</a></li>
-                    <li><a href="#row-2">About us</a></li>
-                    <li><a href="#container-3">Houses</a></li>
-                    <li><a href="#row-4">Links</a></li>
-                    <li><a href="#clients">Clients</a></li>
+           <nav> <div class="nav-bar justify-space-between">
+            <div class="logo"><img src="images/logo.png" alt=""></div>
+            <ul>
+                <li><a href="#background-container">Home</a></li>
+                <li><a href="#row-2">About us</a></li>
+                <li><a href="#container-3">Houses</a></li>
+                <li><a href="#row-4">Links</a></li>
+                <li><a href="#clients">Clients</a></li>
 
-                    <li><a href="#footer">Contact</a></li>
+                <li><a href="#footer">Contact</a></li>
 
-                </ul>
-                <button class="button ">Work with us <i class="fa-solid fa-arrow-right"></i></button>
-            </div>
+            </ul>
+           
+            <button class="button ">Work with us <i class="fa-solid fa-arrow-right"></i></button>
+            <!-- <i class="fa-solid fa-bars mobile-icon show-icon menu-btn"></i>
+            <i class="fa-solid fa-xmark mobile-icon cancel-icon"></i> -->
+        </div></nav>
 
             <h1 class="header-text">Beautiful homes made for you</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, suscipit quam tempore aspernatur
@@ -69,15 +72,15 @@
                 <span>
                     <p>Looking for</p><i class="fa-solid fa-chevron-down"></i>
                 </span>
-                <section class="vertical-border"></section>
+                <section class="location-vertical-border"></section>
                 <span>
                     <p>Location</p><i class="fa-solid fa-chevron-down"></i>
                 </span>
-                <section class="vertical-border"></section>
+                <section class="location-vertical-border"></section>
                 <span>
                     <p>Property Type</p><i class="fa-solid fa-chevron-down"></i>
                 </span>
-                <section class="vertical-border"></section>
+                <section class="location-vertical-border"></section>
 
                 <span>
                     <p>Price</p><i class="fa-solid fa-chevron-down"></i>
@@ -90,16 +93,16 @@
             <div class="house-container display-flex-column">
                 <img src="images/House Example 1.png" alt="">
                 <h2>Malto House</h2>
-                <div class="border"></div>  
+                <div class="border"></div>
                 <div class="numbers display-flex">
                     <span>
                         <i class="fa-solid fa-car"></i> 4
                     </span>
-                    <div class="border"></div>
+                    <div class="vertical-border"></div>
                     <span>
                         <i class="fa-solid fa-bath fa-flip-horizontal"></i> 2
                     </span>
-                    <section class="border"></section>
+                    <section class="vertical-border"></section>
                     <span>
                         <i class="fa-regular fa-window-restore"></i> 2
                     </span>
@@ -114,11 +117,11 @@
                     <span>
                         <i class="fa-solid fa-car"></i> 4
                     </span>
-                    <div class="border"></div>
+                    <div class="vertical-border"></div>
                     <span>
                         <i class="fa-solid fa-bath fa-flip-horizontal"></i> 2
                     </span>
-                    <section class="border"></section>
+                    <section class="vertical-border"></section>
                     <span>
                         <i class="fa-regular fa-window-restore"></i> 2
                     </span>
@@ -132,11 +135,11 @@
                     <span>
                         <i class="fa-solid fa-car"></i> 4
                     </span>
-                    <div class="border"></div>
+                    <div class="vertical-border"></div>
                     <span>
                         <i class="fa-solid fa-bath fa-flip-horizontal"></i> 2
                     </span>
-                    <section class="border"></section>
+                    <section class="vertical-border"></section>
                     <span>
                         <i class="fa-regular fa-window-restore"></i> 2
                     </span>
@@ -150,11 +153,11 @@
                     <span>
                         <i class="fa-solid fa-car"></i> 4
                     </span>
-                    <div class="border"></div>
+                    <div class="vertical-border"></div>
                     <span>
                         <i class="fa-solid fa-bath fa-flip-horizontal"></i> 2
                     </span>
-                    <section class="border"></section>
+                    <section class="vertical-border"></section>
                     <span>
                         <i class="fa-regular fa-window-restore"></i> 2
                     </span>
@@ -168,11 +171,11 @@
                     <span>
                         <i class="fa-solid fa-car"></i> 4
                     </span>
-                    <div class="border"></div>
+                    <div class="vertical-border"></div>
                     <span>
                         <i class="fa-solid fa-bath fa-flip-horizontal"></i> 2
                     </span>
-                    <section class="border"></section>
+                    <section class="vertical-border"></section>
                     <span>
                         <i class="fa-regular fa-window-restore"></i> 2
                     </span>
@@ -186,11 +189,11 @@
                     <span>
                         <i class="fa-solid fa-car"></i> 4
                     </span>
-                    <div class="border"></div>
+                    <div class="vertical-border"></div>
                     <span>
                         <i class="fa-solid fa-bath fa-flip-horizontal"></i> 2
                     </span>
-                    <section class="border"></section>
+                    <section class="vertical-border"></section>
                     <span>
                         <i class="fa-regular fa-window-restore"></i> 2
                     </span>
@@ -231,9 +234,9 @@
     <div id="clients" class="client-section ">
         <div class="client-content display-flex-column">
             <div class="line"></div>
-            <h2>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, commodi suscipit? Facere
-                voluptates alias in quidem eveniet architecto voluptate quia sequi reiciendis provident? Earum,
-                corrupti?"</h2>
+            <h2><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, commodi suscipit? Facere
+                    voluptates alias in quidem eveniet architecto voluptate quia sequi reiciendis provident? Earum,
+                    corrupti?</q></h2>
             <div class="clients-row display-flex justify-space-evenly">
                 <div class="client display-flex">
                     <img src="images/House Example 1.png" alt="">
